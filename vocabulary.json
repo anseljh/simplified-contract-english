@@ -1,0 +1,14 @@
+{
+  "contract": {
+    "pos": "n",
+    "WordNet": "contract.n.01"
+  },
+  "file": {
+    "pos": "v",
+    "WordNet": "file.v.01"
+  },
+  "statute": {
+    "pos": "n",
+    "WordNet": "statute.n.01"
+  }
+}
