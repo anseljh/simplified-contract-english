@@ -7,6 +7,10 @@
     "pos": "v",
     "WordNet": "file.v.01"
   },
+  "sign": {
+    "pos": "v",
+    "WordNet": "sign.v.01"
+  },
   "statute": {
     "pos": "n",
     "WordNet": "statute.n.01"
