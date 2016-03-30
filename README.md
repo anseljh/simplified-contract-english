@@ -30,9 +30,10 @@ For each approved word, the approved part of speech and approved meaning are spe
 As an example, again using `contract`:
 
 ```json
-"contract": {
-    "pos": "n",
-    "WordNet": "contract.n.01"
+{
+  "word": "contract",
+  "pos": "n",
+  "WordNet": "contract.n.01"
 }
 ```
 
