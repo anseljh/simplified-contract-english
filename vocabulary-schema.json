@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "http://dont-forget-to-update-later/vocabulary-schema.json",
+  "title": "SCE Vocabulary Set Schema",
+  "description": "Schema for a set of vocabulary items for Simplified Contract English",
+  "type": "array",
+  "items": [{
+    "id": "vocabulary-item",
+    "type": "object",
+    "properties": {
+      "word": {
+        "type": "string"
+      },
+      "pos": {
+        "enum": ["n", "v", "a", "r", "s", "p"]
+      },
+      "WordNet": {
+        "type": "string"
+      },
+      "notes": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "word",
+      "pos",
+      "WordNet"
+    ]
+  }]
+}

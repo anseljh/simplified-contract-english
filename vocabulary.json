@@ -1,18 +1,22 @@
-{
-  "contract": {
+[
+  {
+    "word": "contract",
     "pos": "n",
     "WordNet": "contract.n.01"
   },
-  "file": {
+  {
+    "word": "file",
     "pos": "v",
     "WordNet": "file.v.01"
   },
-  "sign": {
+  {
+    "word": "sign",
     "pos": "v",
     "WordNet": "sign.v.01"
   },
-  "statute": {
+  {
+    "word": "statute",
     "pos": "n",
     "WordNet": "statute.n.01"
   }
-}
+]
