@@ -48,3 +48,7 @@ As an example, again using `contract`:
 ### Discussion of SCE
 
 * Ken Adams, [Using "Simplified Legal English" for Contracts?](http://www.adamsdrafting.com/using-simplified-legal-english-for-contracts/), March 22, 2016
+
+### Other Standards
+
+* [RFC 2119](http://xml2rfc.ietf.org/public/rfc/html/rfc2119.html): Defines key words for requirements in other Internet standards documents. ("MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL")
