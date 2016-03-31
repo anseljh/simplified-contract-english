@@ -1,22 +1,28 @@
 [
   {
-    "word": "contract",
-    "pos": "n",
+    "word": "contract", 
+    "pos": "n", 
     "WordNet": "contract.n.01"
-  },
+  }, 
   {
-    "word": "file",
-    "pos": "v",
+    "word": "file", 
+    "pos": "v", 
     "WordNet": "file.v.01"
-  },
+  }, 
   {
-    "word": "sign",
-    "pos": "v",
+    "word": "sign", 
+    "pos": "v", 
     "WordNet": "sign.v.01"
-  },
+  }, 
   {
-    "word": "statute",
-    "pos": "n",
+    "word": "statute", 
+    "pos": "n", 
     "WordNet": "statute.n.01"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-03-31 21:46:10.388293", 
+    "word": "condition", 
+    "pos": "n", 
+    "WordNet": "condition.n.07"
   }
 ]
