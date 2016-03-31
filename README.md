@@ -21,7 +21,13 @@ In Simplified Technical English, words are approved for **one meaning only**. Fo
 
 As in STE, exceptions are permissible. For example, proper nouns are an obvious acceptable exception. What is important is that **each exception should be purposeful**. The author should think about whether an exception is really necessary. Tools for writing in SCE should reinforce this concept.
 
-During development, vocabularies are specified in the JSON data format. This data can then be compiled automatically into a human-readable document.
+During development, vocabularies are specified in the JSON data format. This data can then be compiled automatically into a human-readable document that looks like this:
+
+> * **compile** (v): use a computer program to translate source code written in a particular programming language into computer-readable machine code that can be executed (`compile.v.03`)
+> * **computer** (n): a machine for performing calculations automatically (`computer.n.01`)
+> * **program** (n): (computer science) a sequence of instructions that a computer can interpret and execute (`program.n.07`)
+
+(From: [computing.md](Vocabularies/computing.md))
 
 For each approved word, the approved part of speech and approved meaning are specified. The approved meaning is linked to [WordNet](http://wordnet.princeton.edu/).
 
