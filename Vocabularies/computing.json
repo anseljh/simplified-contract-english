@@ -1,0 +1,20 @@
+[
+  {
+    "notes": "Added via sce.py at 2016-03-31 06:35:17.113442", 
+    "word": "compile", 
+    "pos": "v", 
+    "WordNet": "compile.v.03"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-03-31 06:35:31.407804", 
+    "word": "computer", 
+    "pos": "n", 
+    "WordNet": "computer.n.01"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-03-31 06:35:50.202759", 
+    "word": "program", 
+    "pos": "n", 
+    "WordNet": "program.n.07"
+  }
+]
