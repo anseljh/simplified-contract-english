@@ -3,6 +3,7 @@ import json
 import os.path
 
 import click
+import markdown
 
 from nltk.corpus import wordnet
 from nltk.tokenize import word_tokenize
@@ -138,9 +139,51 @@ def add(word, pos, vocabulary):
     click.echo("Wrote vocabulary file: %s" % filename)
 
 
+@click.command()
+@click.option('--vocabulary', '-v', default='general',
+              help='Vocabulary file to render')
+@click.option('--format', '-f', default='html',
+              type=click.Choice(['html', 'markdown']),
+              help='Output format')
+def render(vocabulary, format):
+    """
+    Render a vocabulary file to Markdown or HTML
+    """
+    # Check if file exists, and read it if it does
+    if os.path.isfile(vocabulary):
+        f = open(vocabulary, 'rb')
+        j = json.load(f)
+        f.close()
+        # click.echo("Vocabulary:\t%s" % j)
+    else:
+        click.echo("Vocabulary file didn't exist.")
+        return
+
+    # Build Markdown text
+    md = ""
+    for item in j:
+        # click.echo(item)
+        ss = wordnet.synset(item['WordNet'])
+        md += "* **%s** (%s): %s (`%s`)\n" % (
+            item['word'],
+            item['pos'],
+            ss.definition(),
+            item['WordNet'])
+
+    # Write output
+    if format == 'markdown':
+        click.echo(md)
+    elif format == 'html':
+        html = markdown.markdown(md)
+        click.echo(html)
+    else:
+        raise Exception("Invalid format: %s" % (format))
+
+
 cli.add_command(lookup)
 cli.add_command(stem)
 cli.add_command(add)
+cli.add_command(render)
 
 if __name__ == '__main__':
     cli()
