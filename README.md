@@ -77,7 +77,8 @@ Usage: sce.py add [OPTIONS] WORD
 Options:
   -p, --pos TEXT         Part of speech
   -v, --vocabulary TEXT  Vocabulary file to add to
-  --help                 Show this message and exit.```
+  --help                 Show this message and exit.
+```
 
 Example use of the `add` command to add the word "condition" to the general vocabulary:
 
