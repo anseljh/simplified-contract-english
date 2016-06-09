@@ -22,5 +22,41 @@
     "word": "descendant", 
     "pos": "n", 
     "WordNet": "descendant.n.01"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-06-09 06:22:46.382045", 
+    "word": "statutory", 
+    "pos": "s", 
+    "WordNet": "statutory.s.02"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-06-09 06:23:04.513383", 
+    "word": "will", 
+    "pos": "n", 
+    "WordNet": "will.n.03"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-06-09 06:23:24.784713", 
+    "word": "codicil", 
+    "pos": "n", 
+    "WordNet": "codicil.n.01"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-06-09 06:24:07.157582", 
+    "word": "witness", 
+    "pos": "n", 
+    "WordNet": "witness.n.04"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-06-09 06:24:51.875996", 
+    "word": "estate", 
+    "pos": "n", 
+    "WordNet": "estate.n.01"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-06-09 06:25:59.052048", 
+    "word": "marriage", 
+    "pos": "n", 
+    "WordNet": "marriage.n.01"
   }
 ]
