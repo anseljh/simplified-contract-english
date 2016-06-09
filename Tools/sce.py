@@ -14,6 +14,27 @@ from nltk.stem import PorterStemmer
 stemmer = PorterStemmer()
 # http://www.nltk.org/howto/stem.html
 
+STOP_WORDS = [
+    'the',
+    'a',
+    'an',
+    'and',
+    'or',
+    'not',
+    'of',
+    'to',
+    'for',
+    'as',
+    'with',
+    'is',
+    'be',
+    'in',
+    'on',
+    'if',
+    '____'  # Blank
+    ]
+PUNCTUATION = list(".!?,:;()[]-=_+")
+
 
 def tokenize(input):
     """
@@ -24,6 +45,28 @@ def tokenize(input):
     for line in input:
         tokens += word_tokenize(line)
     return tokens
+
+
+@click.command()
+@click.argument('input', type=click.File('rb'))
+def count(input):
+    """
+    Count words in a file. Omits common stop-words and punctuation.
+    """
+    tokens = tokenize(input)
+    counts = {}
+    for token in tokens:
+        if token not in counts:
+            counts[token] = 0
+        counts[token] += 1
+    # for key in counts:
+    #     print("%s: %d" % (key, counts[key]))
+
+    srtd = sorted(counts, key=counts.get, reverse=True)
+    strings = ["%d\t%s" % (counts[x], x) for x in srtd if x not in STOP_WORDS + PUNCTUATION]
+    print("")
+    for x in strings:
+        print(x)
 
 
 @click.command()
@@ -188,6 +231,7 @@ cli.add_command(lookup)
 cli.add_command(stem)
 cli.add_command(add)
 cli.add_command(render)
+cli.add_command(count)
 
 if __name__ == '__main__':
     cli()
