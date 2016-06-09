@@ -52,7 +52,7 @@ def tokenize(input):
 def count(input):
     """
     Count words in a file
-    
+
     Omits common stop-words and punctuation.
     """
     tokens = tokenize(input)
