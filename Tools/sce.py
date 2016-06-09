@@ -51,7 +51,9 @@ def tokenize(input):
 @click.argument('input', type=click.File('rb'))
 def count(input):
     """
-    Count words in a file. Omits common stop-words and punctuation.
+    Count words in a file
+    
+    Omits common stop-words and punctuation.
     """
     tokens = tokenize(input)
     counts = {}
