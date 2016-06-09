@@ -1,0 +1,26 @@
+[
+  {
+    "notes": "Added via sce.py at 2016-06-09 06:16:36.754960", 
+    "word": "testator", 
+    "pos": "n", 
+    "WordNet": "testator.n.01"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-06-09 06:17:15.778705", 
+    "word": "executor", 
+    "pos": "n", 
+    "WordNet": "executor.n.01"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-06-09 06:17:41.106450", 
+    "word": "trustee", 
+    "pos": "n", 
+    "WordNet": "trustee.n.01"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-06-09 06:19:27.604955", 
+    "word": "descendant", 
+    "pos": "n", 
+    "WordNet": "descendant.n.01"
+  }
+]
