@@ -1,0 +1,11 @@
+* **testator** (n): a person who makes a will (`testator.n.01`)
+* **executor** (n): a person appointed by a testator to carry out the terms of the will (`executor.n.01`)
+* **trustee** (n): a person (or institution) to whom legal title to property is entrusted to use for another's benefit (`trustee.n.01`)
+* **descendant** (n): a person considered as descended from some ancestor or race (`descendant.n.01`)
+* **statutory** (s): prescribed or authorized by or punishable under a statute (`statutory.s.02`)
+* **will** (n): a legal document declaring a person's wishes regarding the disposal of their property when they die (`will.n.03`)
+* **codicil** (n): a supplement to a will; a testamentary instrument intended to alter an already executed will (`codicil.n.01`)
+* **witness** (n): (law) a person who attests to the genuineness of a document or signature by adding their own signature (`witness.n.04`)
+* **estate** (n): everything you own; all of your assets (whether real property or personal property) and liabilities (`estate.n.01`)
+* **marriage** (n): the state of being a married couple voluntarily joined for life (or until divorce) (`marriage.n.01`)
+
