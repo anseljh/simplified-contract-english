@@ -100,6 +100,8 @@ def add(word, pos, vocabulary):
                     choice.name(),
                     choice.definition()))
 
+    # TODO: Handle case where there are 0 choices
+
     # Get user's choice
     user_input = click.prompt('Select a definition', type=int)
     the_one = choice_keys[user_input]
