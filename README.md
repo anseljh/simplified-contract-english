@@ -61,6 +61,7 @@ Options:
 
 Commands:
   add     Add a word to a vocabulary file
+  count   Count words in a file
   lookup  Lookup meanings in WordNet
   render  Render a vocabulary file to Markdown or HTML
   stem    Stem words in a file
