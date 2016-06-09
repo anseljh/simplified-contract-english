@@ -58,5 +58,11 @@
     "word": "marriage", 
     "pos": "n", 
     "WordNet": "marriage.n.01"
+  }, 
+  {
+    "notes": "Added via sce.py at 2016-06-09 07:02:24.591589", 
+    "word": "intestate", 
+    "pos": "a", 
+    "WordNet": "intestate.a.01"
   }
 ]
